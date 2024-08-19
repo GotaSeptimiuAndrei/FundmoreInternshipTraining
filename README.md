@@ -232,3 +232,91 @@
   - **Objective:** Understand integration with AWS services and advanced configurations.
   - **Resources:** [Serverless DynamoDB](https://www.serverless.com/framework/docs/providers/aws/guide/resources/)
 
+## Advanced topics
+
+### Challenge 1: Bulk Data Operations
+- **Task:** Perform bulk data operations (ingest, update, delete) in a PostgreSQL database using NodeJS.
+- **Objective:** Understand bulk data operations and database performance optimization.
+- **Requirements:**
+  - Create a PostgreSQL table with an appropriate schema.
+  - Use a NodeJS script to generate and insert 2 million rows of data.
+  - Update specific fields for 2 million rows.
+  - Delete 2 million rows based on certain conditions.
+  - Optimize the processes to handle large volumes efficiently and ensure data integrity.
+
+### Challenge 2: NodeJS Request Handling
+- **Task:** Determine how many requests a NodeJS application can handle.
+- **Objective:** Understand the scalability and performance of NodeJS.
+- **Requirements:**
+  - Set up a simple NodeJS server.
+  - Use a load testing tool (e.g., Apache JMeter, Artillery) to stress test the server.
+  - Measure and document the maximum number of requests per second the server can handle.
+
+### Challenge 3: Real-time Data Processing
+- **Task:** Implement a real-time data processing system using NodeJS and WebSockets.
+- **Objective:** Learn about real-time communication and data streaming.
+- **Requirements:**
+  - Set up a WebSocket server in NodeJS.
+  - Create a client application that sends and receives real-time data.
+  - Process and display the data in real-time.
+
+### Challenge 4: API Rate Limiting
+- **Task:** Implement rate limiting in a NodeJS API.
+- **Objective:** Learn to protect APIs from abuse by limiting the number of requests.
+- **Requirements:**
+  - Use a rate-limiting middleware (e.g., express-rate-limit).
+  - Configure the middleware to limit the number of requests per IP address.
+  - Test the rate-limiting functionality to ensure it works as expected.
+
+### Challenge 5: CI/CD Pipeline Simulation
+- **Task:** Simulate a CI/CD pipeline for a NodeJS application locally.
+- **Objective:** Understand continuous integration and continuous deployment.
+- **Requirements:**
+  - Use a CI/CD tool like GitHub Actions locally with a tool like `act`.
+  - Configure the pipeline to automatically run tests and simulate deployment.
+  - Ensure the pipeline is triggered on code changes.
+
+### Challenge 6: Containerization with Docker
+- **Task:** Containerize a NodeJS application using Docker.
+- **Objective:** Learn about containerization and its benefits.
+- **Requirements:**
+  - Write a Dockerfile to containerize the application.
+  - Build and run the container locally.
+  - Verify the application runs correctly inside the container.
+
+### Challenge 7: Monitoring and Logging
+- **Task:** Implement monitoring and logging for a NodeJS application.
+- **Objective:** Learn to monitor application performance and troubleshoot issues.
+- **Requirements:**
+  - Use a logging library (e.g., Winston, Morgan) to log application events.
+  - Set up local monitoring using a tool like Prometheus and Grafana.
+  - Monitor key metrics such as response time and error rates.
+
+### Challenge 8: Secure API Development
+- **Task:** Implement security best practices in a NodeJS API.
+- **Objective:** Learn to secure APIs and protect against common vulnerabilities.
+- **Requirements:**
+  - Implement authentication and authorization (e.g., JWT).
+  - Use middleware to protect against common attacks (e.g., SQL injection, XSS).
+  - Ensure all API endpoints are secure.
+
+### Challenge 9: Data Visualization Dashboard
+- **Task:** Create a data visualization dashboard using Angular and NestJS.
+- **Objective:** Learn to present data visually using a frontend framework and a backend API.
+- **Requirements:**
+  - Set up a NestJS API to provide data.
+  - Create an Angular application to consume the API and display data in charts and graphs.
+  - Use a data visualization library (e.g., Chart.js, D3.js) for the frontend.
+
+### Challenge 10: Automated Testing
+- **Task:** Implement automated testing for a NodeJS application.
+- **Objective:** Ensure code quality and reliability through automated tests.
+- **Requirements:**
+  - Use a testing framework (e.g., Mocha, Jest) to write unit tests.
+  - Implement integration tests for API endpoints.
+  - Run the tests locally and ensure they cover the critical paths of the application.
+
+## GIT
+- Overview: https://www.youtube.com/watch?v=hwP7WQkmECE
+- In depth: https://www.youtube.com/watch?v=USjZcfj8yxE , https://www.youtube.com/watch?v=mJ-qvsxPHpY
+- Fixup: https://sethrobertson.github.io/GitFixUm/fixup.html
